@@ -85,12 +85,12 @@ generator.generate_presentation(
 
 You can also run and test using the Jupyter notebook: PPT_Generator.ipynb.
 
-33 🎯 Example (Colab / Notebook)
+🎯 Example (Colab / Notebook)
 
 Open and try the example notebook:
 PPT_Generator.ipynb in the repository.
 
-🛠 Dependencies
+## 🛠 Dependencies
 ```
 Python 3.9+
 
