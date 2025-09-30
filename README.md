@@ -56,14 +56,14 @@ ai-ppt-generator/
 
 ```
 
-⚡ Installation
+## ⚡ Installation
 ```
 git clone https://github.com/JeswinJestin/GenAI_PPT_Generator.git
 cd GenAI_PPT_Generator
 pip install -r requirements.txt
 ```
 
-🔑 Setup & Usage
+## 🔑 Setup & Usage
 
 You’ll need:
 
@@ -85,7 +85,7 @@ generator.generate_presentation(
 
 You can also run and test using the Jupyter notebook: PPT_Generator.ipynb.
 
-🎯 Example (Colab / Notebook)
+33 🎯 Example (Colab / Notebook)
 
 Open and try the example notebook:
 PPT_Generator.ipynb in the repository.
@@ -106,7 +106,7 @@ Install via:
 
 pip install -r requirements.txt
 ```
-📸 Demo
+## 📸 Demo
 
 <img width="1822" height="782" alt="Image" src="https://github.com/user-attachments/assets/a4f4c129-878e-4af2-a14c-e53a9ddcb1c0" />
 
@@ -115,7 +115,7 @@ pip install -r requirements.txt
 <img width="1742" height="953" alt="Image" src="https://github.com/user-attachments/assets/bfd95c6a-6afd-4be3-ae56-a388c2589b47" />
 
 
-🚀 Future Work / Roadmap
+## 🚀 Future Work / Roadmap
  ```
 Improve prompt engineering for more creative slides
 
@@ -127,7 +127,7 @@ Support for PowerPoint animations / transitions
 
 Add unit tests & CI pipeline
 ```
-🤝 Contributing
+## 🤝 Contributing
 
 We welcome contributions! Here’s how to get started:
 ```
@@ -143,12 +143,12 @@ Open a Pull Request
 
 Please follow conventional commit messages and write clean, documented code.
 ```
-📜 License
+## 📜 License
 
 This project is open source.
 
 
-🌟 Support & Acknowledgements
+## 🌟 Support & Acknowledgements
 
 If you found this project useful, please give it a ⭐ on GitHub!
 Feel free to open issues or request features — happy to collaborate.
