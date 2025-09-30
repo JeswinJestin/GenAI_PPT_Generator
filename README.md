@@ -53,3 +53,97 @@ ai-ppt-generator/
 ├── requirements.txt
 ├── README.md
 └── LICENSE
+
+```
+
+⚡ Installation
+```
+git clone https://github.com/JeswinJestin/GenAI_PPT_Generator.git
+cd GenAI_PPT_Generator
+pip install -r requirements.txt
+```
+
+🔑 Setup & Usage
+
+You’ll need:
+
+A Google Gemini API key for content generation
+
+(Optional) An image API key (e.g. Pexels) for downloading images
+
+Sample code:
+```
+from ppt_generator import PPTGenerator  # or adapt to your package path
+
+generator = PPTGenerator(api_key="YOUR_GEMINI_API_KEY")
+generator.generate_presentation(
+    topic="Artificial Intelligence",
+    num_slides=6,
+    output_path="ai_presentation.pptx"
+)
+```
+
+You can also run and test using the Jupyter notebook: PPT_Generator.ipynb.
+
+🎯 Example (Colab / Notebook)
+
+Open and try the example notebook:
+PPT_Generator.ipynb in the repository.
+
+🛠 Dependencies
+```
+Python 3.9+
+
+python-pptx
+
+google-generativeai
+
+Pillow
+
+requests
+
+Install via:
+
+pip install -r requirements.txt
+```
+📸 Demo
+
+
+
+🚀 Future Work / Roadmap
+ ```
+Improve prompt engineering for more creative slides
+
+Add theme / style templates (colors, fonts, layouts)
+
+More image sources & fallback visuals
+
+Support for PowerPoint animations / transitions
+
+Add unit tests & CI pipeline
+```
+🤝 Contributing
+
+We welcome contributions! Here’s how to get started:
+```
+Fork the repo
+
+Create a branch: git checkout -b feature/YourFeature
+
+Make your changes & commit: git commit -m "Add feature …"
+
+Push branch: git push origin feature/YourFeature
+
+Open a Pull Request
+
+Please follow conventional commit messages and write clean, documented code.
+```
+📜 License
+
+This project is open source.
+
+
+🌟 Support & Acknowledgements
+
+If you found this project useful, please give it a ⭐ on GitHub!
+Feel free to open issues or request features — happy to collaborate.
